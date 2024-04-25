@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en">
       <body
         className={cn(
-          "min-h-screen font-sans antialiased grainy",
+          "min-h-screen font-sans antialiased",
           inter.className
         )}
       >
